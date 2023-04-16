@@ -2,7 +2,7 @@
 
 #Xray版本
 AUUID=3cedc49c-a95c-4872-a4da-106e40acd09f
-CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page259/bistup.zip
+CADDYIndexPage=https://github.com/technext/Acceleration/archive/refs/heads/master.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
 XRAY_URL="https://github.com/XTLS/Xray-core/releases/download/${VER}/Xray-linux-64.zip"
